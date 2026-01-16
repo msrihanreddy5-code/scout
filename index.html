@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ScoutLens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>ScoutLens</h1>
+  <p>Automated Esports Scouting Dashboard</p>
+</header>
+
+<section class="controls">
+  <select id="teamSelect">
+    <option value="cloud9">Cloud9</option>
+    <option value="liquid">Team Liquid</option>
+    <option value="fnatic">Fnatic</option>
+  </select>
+  <button onclick="generateReport()">Generate Report</button>
+</section>
+
+<section class="cards">
+  <div class="card" id="playstyle"></div>
+  <div class="card" id="strength"></div>
+  <div class="card" id="weakness"></div>
+</section>
+
+<section class="charts">
+  <canvas id="siteChart"></canvas>
+</section>
+
+<section class="table">
+  <h2>Player Tendencies</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Pattern</th>
+      </tr>
+    </thead>
+    <tbody id="playerTable"></tbody>
+  </table>
+</section>
+
+<section class="insights">
+  <h2>Coach Recommendations</h2>
+  <ul id="tips"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
