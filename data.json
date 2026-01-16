@@ -1,0 +1,48 @@
+{
+  "cloud9": {
+    "playstyle": "Aggressive early-round pressure",
+    "strength": "Fast site executes",
+    "weakness": "Weak late-round coordination",
+    "players": [
+      { "name": "Player A", "pattern": "Early peek aggression" },
+      { "name": "Player B", "pattern": "Utility saved too long" },
+      { "name": "Player C", "pattern": "High clutch success" }
+    ],
+    "sites": [65, 25, 10],
+    "tips": [
+      "Delay executes by 20 seconds",
+      "Punish early aggression",
+      "Force early utility usage"
+    ]
+  },
+
+  "liquid": {
+    "playstyle": "Slow defaults",
+    "strength": "Strong mid control",
+    "weakness": "Predictable site hits",
+    "players": [
+      { "name": "Player X", "pattern": "Late lurks" },
+      { "name": "Player Y", "pattern": "Passive defense" }
+    ],
+    "sites": [40, 45, 15],
+    "tips": [
+      "Apply early mid pressure",
+      "Fake rotations frequently"
+    ]
+  },
+
+  "fnatic": {
+    "playstyle": "Balanced tempo",
+    "strength": "Excellent rotations",
+    "weakness": "Over-rotations",
+    "players": [
+      { "name": "Player M", "pattern": "Fast rotates" },
+      { "name": "Player N", "pattern": "Utility spam" }
+    ],
+    "sites": [50, 30, 20],
+    "tips": [
+      "Exploit rotation timings",
+      "Hold map control longer"
+    ]
+  }
+}
